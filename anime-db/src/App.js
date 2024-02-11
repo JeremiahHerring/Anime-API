@@ -40,7 +40,6 @@ function App() {
         <div className='anime-info'>
         {/* if animeInfo contains data, then we display animeInfo component */}
           {animeInfo && <AnimeInfo animeInfo={animeInfo}/>}  
-          </div>
           <div className='anime-row'>
             <h2 className='text-heading'>Anime</h2>
             <div className='row'>
